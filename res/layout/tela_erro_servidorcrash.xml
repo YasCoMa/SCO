@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+tela_erro/ilustracao"
+        android:layout_width="147dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ilustracao_2" />
+    
+    <TextView
+        android:id="@+tela_erro/mensagem_"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/mensagem_servidorFora" />
+
+    <Button
+        android:id="@+tela_erro/button_sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sair_telaerro" />
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+tela2_presentation/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2.50"
+        android:text="@string/apresentacao_tela2" />
+   
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/separador"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+objeto1_/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/objeto_1" />
+    
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65" >
+
+        <TextView
+            android:id="@+objeto1_/estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:text="@string/state_obj1" />
+
+        <Button
+            android:id="@+objeto1_/ligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ligar" />
+
+        <Button
+            android:id="@+objeto1_/desligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desligar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/separador"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+objeto2_/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/objeto_2" />
+
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"  >
+
+        <TextView
+            android:id="@+objeto2_/estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:text="@string/state_obj2" />
+
+        <Button
+            android:id="@+objeto2_/ligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ligar" />
+
+        <Button
+            android:id="@+objeto2_/desligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desligar" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/separador"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+objeto3_/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/objeto_3" />
+    
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"  >
+
+        <TextView
+            android:id="@+objeto3_/estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:text="@string/state_obj3" />
+
+
+        <Button
+            android:id="@+objeto3_/ligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ligar" />
+
+        <Button
+            android:id="@+objeto3_/desligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desligar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/separador"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+objeto4_/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/objeto_4" />
+    
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"  >
+
+        <TextView
+            android:id="@+objeto4_/estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:text="@string/state_obj4" />
+
+
+        <Button
+            android:id="@+objeto4_/ligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ligar" />
+
+        <Button
+            android:id="@+objeto4_/desligar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desligar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/s_t1"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text="@string/separador"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:id="@+tela2/button_sair"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/button_goOut" />
+        
+        <Button
+            android:id="@+tela_posterior/go"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tela2_p1" />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Sistema Casa Online - Am &amp; Yc</string>
+    <string name="app_name">Sistema Casa Online 2012 versão Android</string>
+    <string name="user">Digite o usuário:</string>
+    <string name="password">Digite a senha:</string>
+    <string name="key">Digite sua Id:</string>
+    <string name="button_go">Entrar</string>
+    <string name="objeto_1">Tomada 1:</string>
+    <string name="apresentacao_tela2">Bem-vindo ao painel de controle - parte 1</string>
+    <string name="objeto_2">Quarto 2:</string>
+    <string name="objeto_3">Quarto 1:</string>
+    <string name="objeto_4">Sala de estar:</string>
+    <string name="objeto_5">Cozinha:</string>
+    <string name="objeto_6">Banheiro:</string>
+    <string name="objeto_7">Luz dos fundos:</string>
+    <string name="objeto_8">Luz de fora:</string>
+    
+    <string name="state_obj1">    Ligado</string>
+    <string name="state_obj2">    Desligado</string>
+    <string name="state_obj3">    Desligado</string>
+    <string name="state_obj4">    Desligado</string>
+    <string name="state_obj5">    Desligado</string>
+    <string name="state_obj6">    Desligado</string>
+    <string name="state_obj7">    Ligado</string>
+    <string name="state_obj8">    Ligado</string>
+    <string name="ligar">on</string>
+    <string name="desligar">off</string>
+    <string name="button_goOut">Exit</string>
+    <string name="separador">_____________________________________</string>
+    <string name="cumprimento">Olá,</string>
+    <string name="entrar">Avançar</string>
+    <string name="sair">Cancelar</string>
+    <string name="mensagem_servidorFora">Desculpe o incômodo, o servidor está momentaneamente fora do ar.</string>
+    <string name="sair_telaerro">Fechar</string>
+    <string name="tela2_p1">próxima-&gt;</string>
+    <string name="tela2_p2">&lt;- anterior</string>
+    <string name="apresentacao_tela2_p2">Bem-vindo ao painel de controle - parte 2</string>
+    <string name="ajuda">O aplicativo \nSistema Casa Online\né uma forma mais cômoda\nde controlar os dispositivos\nautomatizados da casa \ndo cliente do sistema.</string>
+    <string name="sobre">Desenvolvido por: \nÂngelo M &amp; Yasmmin Côrtes\nVersão: 1.0\nsac@sistemacasaonline.com\n(21) 4963-7835</string>
+    <string name="titulo_tela_config">Configurar conta</string>
+    <string name="info_old_senha">Digite a senha antiga:</string>
+    <string name="info_new_senha">Digite a nova senha:</string>
+    <string name="senha_repeat">Digite a nova senha novamente:</string>
+    <string name="trocar_senha">Trocar</string>
+    <string name="info_erro_config">Faça o login primeiro \npara poder configurara a conta!</string>
+
+</resources>

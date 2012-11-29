@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+tela_mediana/boas_vindas"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cumprimento" />
+
+    <ImageView
+        android:id="@+tela_mediana/ilustracao"
+        android:layout_width="134dp"
+        android:layout_height="164dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ilustracao_2" />
+    
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:id="@+tela_mediana/entrar_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entrar" />
+
+        <Button
+            android:id="@+tela_mediana/sair_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sair" />
+    </LinearLayout>
+    
+</LinearLayout>

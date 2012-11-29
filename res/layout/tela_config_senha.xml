@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+tela_config/titulo"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/titulo_tela_config" />
+
+    <TextView
+        android:id="@+tela_config/old_pass_info"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="@string/info_old_senha" />
+
+    <EditText
+        android:id="@+tela_config/old_pass"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+tela_config/new_pass_info"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="@string/info_new_senha" />
+
+    <EditText
+        android:id="@+tela_config/new_pass"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+tela_config/new_pass_info_repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/senha_repeat" />
+
+    <EditText
+        android:id="@+tela_config/new_pass_repeat"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+    <LinearLayout
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+        
+	    <Button
+	        android:id="@+tela_config/change"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/trocar_senha" />
+	
+	    <Button
+	        android:id="@+tela_config/cancela"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/sair" />
+	</LinearLayout>    
+	
+</LinearLayout>

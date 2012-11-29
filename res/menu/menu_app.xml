@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/sobre" android:title="Sobre o\nSistema Casa Online" android:icon="@drawable/sobre_icone"></item>
+    <item android:id="@+id/ajuda" android:title="Ajuda" android:icon="@drawable/ajuda_icone"></item>
+    <item android:id="@+id/config" android:title="Configurações" android:icon="@drawable/config_icone"></item>
+    
+
+</menu>

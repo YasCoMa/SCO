@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <TextView
+        android:id="@+usuario/user"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/user" />
+
+    <EditText
+        android:id="@+usuario/user_"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+senha/pass"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+senha/pass_"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+chave/key"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/key" />
+
+    <EditText
+        android:id="@+chave/key_"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+ir/goPage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_go" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="158dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ilustracao" />
+
+</LinearLayout>
