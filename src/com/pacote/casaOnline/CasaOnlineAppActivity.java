@@ -84,7 +84,7 @@ public class CasaOnlineAppActivity extends Activity {
     					 String[]x={usuario+"&"+chave+"&"+senha+"&cad",""};
     					 String x_encoded=Base64.criptografa(x);
     					 
-    					 String nome_usuario = null, data=null, hora=null, endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    					 String nome_usuario = null, data=null, hora=null, endereco="https://localhost/sco_and_1.php?"+x_encoded;
 					 	 boolean acesso_ok=false, servidor_ok=true;
 						 try {  
 					         // Create a URL for the desired page  
@@ -135,13 +135,13 @@ public class CasaOnlineAppActivity extends Activity {
     						 CarregaTelaErro();
     					 
     					 if (n_erros==1)
-    					     Toast.makeText(CasaOnlineAppActivity.this, "Erro 02 - Acesso negado. Dados incorretos ou usu·rio n„o cadastrado!\nVocÍ tem mais duas tentativas.", Toast.LENGTH_SHORT).show();
+    					     Toast.makeText(CasaOnlineAppActivity.this, "Erro 02 - Acesso negado. Dados incorretos ou usu√°rio n√£o cadastrado!\nVoc√™ tem mais duas tentativas.", Toast.LENGTH_SHORT).show();
     					 else 
     						 if (n_erros==2)
-    					         Toast.makeText(CasaOnlineAppActivity.this, "Erro 02 - Acesso negado. Dados incorretos ou usu·rio n„o cadastrado!\nVocÍ tem mais uma tentativa.", Toast.LENGTH_SHORT).show();
+    					         Toast.makeText(CasaOnlineAppActivity.this, "Erro 02 - Acesso negado. Dados incorretos ou usu√°rio n√£o cadastrado!\nVoc√™ tem mais uma tentativa.", Toast.LENGTH_SHORT).show();
     						 else 
         						 if (n_erros==3){
-        					         Toast.makeText(CasaOnlineAppActivity.this, "Erro 02 - Acesso negado. Dados incorretos ou usu·rio n„o cadastrado!\nSaindo do aplicativo.", Toast.LENGTH_SHORT).show();    					 
+        					         Toast.makeText(CasaOnlineAppActivity.this, "Erro 02 - Acesso negado. Dados incorretos ou usu√°rio n√£o cadastrado!\nSaindo do aplicativo.", Toast.LENGTH_SHORT).show();    					 
     				                 finish();
         						 }
     			     }
@@ -160,7 +160,7 @@ public class CasaOnlineAppActivity extends Activity {
 		String[]x={usuario+"&"+chave+"&"+senha+"&cad",""};
 		 String x_encoded=Base64.criptografa(x);
 		 
-		 String nome_usuario = null, data_ = null, hora_ = null, endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+		 String nome_usuario = null, data_ = null, hora_ = null, endereco="https://localhost/sco_and_1.php?"+x_encoded;
 	 	 boolean acesso_ok=false, servidor_ok=true;
 		 try {  
 	         // Create a URL for the desired page  
@@ -199,14 +199,14 @@ public class CasaOnlineAppActivity extends Activity {
 	     }
 		if (servidor_ok){
 			TextView boas_vindas = (TextView) findViewById(R.tela_mediana.boas_vindas);
-			boas_vindas.setText("Ol·, "+nome_user+"! \nSeu ˙ltimo acesso foi \nno dia "+data_+" e ‡s "+hora_+"!");
+			boas_vindas.setText("Ol√°, "+nome_user+"! \nSeu √∫ltimo acesso foi \nno dia "+data_+" e √†s "+hora_+"!");
 		}
 		else{
 			CarregaTelaErro();
 		}
 		String[]x1={usuario+"&"+chave+"&"+senha+"=inf?",""};
 		String x_encoded1=Base64.criptografa(x1);
-    	String endereco1="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded1;
+    	String endereco1="https://localhost/sco_and_1.php?"+x_encoded1;
 		
     	String[] info = null;
 		
@@ -310,7 +310,7 @@ public class CasaOnlineAppActivity extends Activity {
 		    			 public void onClick(View arg0) {
 		    				 String[]x={"cliente_exit?",""};
 							 String x_encoded=Base64.criptografa(x);
-		    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+		    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 							
 						         // Create a URL for the desired page  
 								 URL url = null;
@@ -440,7 +440,7 @@ public class CasaOnlineAppActivity extends Activity {
 		    			 public void onClick(View arg0) {
 		    				 String[]x={"cliente_exit?",""};
 							 String x_encoded=Base64.criptografa(x);
-		    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+		    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 							
 						         // Create a URL for the desired page  
 								 URL url = null;
@@ -619,7 +619,7 @@ public class CasaOnlineAppActivity extends Activity {
 		    			 public void onClick(View arg0) {
 		    				 String[]x={"cliente_exit?",""};
 							 String x_encoded=Base64.criptografa(x);
-		    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+		    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 							
 						         // Create a URL for the desired page  
 								 URL url = null;
@@ -856,7 +856,7 @@ public class CasaOnlineAppActivity extends Activity {
 		    			 public void onClick(View arg0) {
 		    				 String[]x={"cliente_exit?",""};
 							 String x_encoded=Base64.criptografa(x);
-		    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+		    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 							
 						         // Create a URL for the desired page  
 								 URL url = null;
@@ -960,7 +960,7 @@ public class CasaOnlineAppActivity extends Activity {
     	    			 public void onClick(View arg0) {
     	    				 String[]x={"cliente_exit?",""};
     						 String x_encoded=Base64.criptografa(x);
-    	    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
     						
     					         // Create a URL for the desired page  
     							 URL url = null;
@@ -1102,7 +1102,7 @@ public class CasaOnlineAppActivity extends Activity {
     	    			 public void onClick(View arg0) {
     	    				 String[]x={"cliente_exit?",""};
     						 String x_encoded=Base64.criptografa(x);
-    	    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
     						
     					         // Create a URL for the desired page  
     							 URL url = null;
@@ -1293,7 +1293,7 @@ public class CasaOnlineAppActivity extends Activity {
     	    			 public void onClick(View arg0) {
     	    				 String[]x={"cliente_exit?",""};
     						 String x_encoded=Base64.criptografa(x);
-    	    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
     						
     					         // Create a URL for the desired page  
     							 URL url = null;
@@ -1533,7 +1533,7 @@ public class CasaOnlineAppActivity extends Activity {
     	    			 public void onClick(View arg0) {
     	    				 String[]x={"cliente_exit?",""};
     						 String x_encoded=Base64.criptografa(x);
-    	    			 	 String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	    			 	 String endereco="https://localhost/sco_and_1.php?"+x_encoded;
     						
     					         // Create a URL for the desired page  
     							 URL url = null;
@@ -1583,7 +1583,7 @@ public class CasaOnlineAppActivity extends Activity {
     public String getEstados (String usuario, String senha, String chave){
     	String[]x={usuario+"&"+chave+"&"+senha+"&status",""};
 		String x_encoded=Base64.criptografa(x);
-    	String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 		String estados = null;
 		
 		try {  
@@ -2035,7 +2035,7 @@ public class CasaOnlineAppActivity extends Activity {
     public void monitora_estados(String usuario, String senha, String chave){
     	String[]x={usuario+"&"+chave+"&"+senha+"&status",""};
 		String x_encoded=Base64.criptografa(x);
-    	String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 		String estados = null;
 		
 		try {  
@@ -2084,7 +2084,7 @@ public class CasaOnlineAppActivity extends Activity {
     	String[]x={usuario+"&"+chave+"&"+senha+"@"+estados,""};
 		String[] x_={calc_crc(x[0])+"&"+Base64.criptografa(x),""};
 		String x_encoded=Base64.criptografa(x_);
-    	String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+    	String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 		String new_estados = null;
 		
 		try {  
@@ -2186,7 +2186,7 @@ public class CasaOnlineAppActivity extends Activity {
 			   			if (new_pass.getText().toString().length()==6 && new_pass_repeat.getText().toString().length()==6){	
 	   					    String[]x={Base64.usuario+"&"+Base64.chave+"&"+old_pass.getText()+"?"+new_pass.getText()+"?"};
 			   				String x_encoded=Base64.criptografa(x);
-			   		    	String endereco="https://www.sistemacasaonline.com/sco_and_1.php?"+x_encoded;
+			   		    	String endereco="https://localhost/sco_and_1.php?"+x_encoded;
 			   				String resp = null;
 			   				
 			   				try {  
@@ -2228,7 +2228,7 @@ public class CasaOnlineAppActivity extends Activity {
 			   	    }
 	   				else 
 	   					if (!(new_pass.getText().toString().equalsIgnoreCase(new_pass_repeat.getText().toString()))){
-	   					    Toast.makeText(CasaOnlineAppActivity.this, "As campos da senha nova est„o com conte˙dos diferentes.", Toast.LENGTH_SHORT).show();
+	   					    Toast.makeText(CasaOnlineAppActivity.this, "As campos da senha nova est√£o com conte√∫dos diferentes.", Toast.LENGTH_SHORT).show();
 	   				    }
 	   				
 	   			}
@@ -2243,7 +2243,7 @@ public class CasaOnlineAppActivity extends Activity {
 	        	});
 	        }
 	    	else {
-	    		alertDialog.setTitle("AtenÁ„o");
+	    		alertDialog.setTitle("Aten√ß√£o");
 	        	alertDialog.setMessage(getText(R.string.info_erro_config));
 	        	alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
 			    public void onClick(DialogInterface dialog, int which) {
